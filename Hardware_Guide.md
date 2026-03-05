@@ -1,6 +1,8 @@
 # Hand2Gripper: Self-developed Open-Source Data Acquisition Hardware Guide
 
-![Hardware Overview](fig3.png)
+[Hardware] official implementation of the paper "Hand2Gripper: A Low-Cost Data Generation Framework for Imitation Learning with the Adaptive Hand-Gripper Mapping Model".
+
+![Hardware Overview](asset/fig3.png)
 
 To overcome the constraints of scene-limited fixed cameras and costly teleoperation systems in robot data acquisition, we designed a lightweight (< 300g), comfortably wearable chest-mounted RGB-D device. With a total cost under $300, this hardware unlocks unconstrained motion capture across diverse indoor and outdoor scenarios, laying the physical foundation for generalizable robot policy learning.
 
@@ -27,7 +29,8 @@ Our system breaks the cost barriers of conventional setups, costing merely 1% of
 
 All structural components are body-adaptive and easily 3D printed.
 
-* **3D Printed PLA Housing (STL):** [housing.stl](housing.stl)
+* **3D Printed PLA Housing (STL):** [housing.stl](asset/housing.stl)
+* **3D Printed PLA Support (STL):** [support.stl](asset/support.stl)
 
 ## 🖨️ 3D Printing Instructions
 
@@ -71,7 +74,7 @@ Attach the 3D-printed body-adaptive brackets to the adjustable chest strap. Conn
 
 To save time compiling drivers and configuring the environment, we provide a pre-configured OrangePi OS image ready for data collection.
 
-* **System Image Download:** [【填写你的百度网盘 / Google Drive 镜像下载链接】](【链接】)
+* **System Image Download:** [Orange Pi Zero3 Image](http://www.orangepi.cn/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-Pi-Zero-3.html)
 
 **Quick Setup:**
 
